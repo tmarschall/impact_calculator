@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://ajax.microsoft.com/ajax/jquery.validate/1.7/jquery.validate.min.js"></script>
+<script src="impact_calculator.js"></script>
+</head>
+
+<body>
+
+<form id="impactCalculator" name="impactCalculator" method="post" action="javascript:displayImpact()">
+   Donation:
+    <input id='donation' name='donation'type='number' min='1' required="true" />
+    <input type='submit' value='Submit' />
+</form>
+
+Charity:
+<select id="charitySelector" form='impactCalculator'>
+    <option value="AMF">Against Malaria Foundation</option>
+    <option value="DFSW">Dispensers for Safe Water</option>
+    <option value="DTW">Deworm the World</option>
+    <option value="FF">Fistula Foundation</option>
+    <option value="FHF">Fred Hollows Foundation</option>
+    <option value="GD">Give Directly</option>
+    <option value="Oxfam">Oxfam</option>
+    <option value="PSI">Population Services International</option>
+    <option value="Possible">Possible</option>
+    <option value="PHC">Project Healthy Children</option>
+    <option value="SCI">Schistosomiasis Control Initiative</option>
+    <option value="Seva">Seva Foundation</option>
+    <option value="PIF">Proven Impact Fund</option>
+</select>
+
+<p id="impact"></p>
+
+</body>
