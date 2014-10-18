@@ -1,0 +1,261 @@
+{
+  "charities": [
+    {
+      "id": 0, 
+      "name": "Against Malaria Foundation", 
+      "overhead": 0.0,
+      "pricePoints" : [
+        {
+          "price": 1, 
+          "item": "Dollars toward providing long-lasting insecticide-treated bed nets to help prevent the spread of malaria"
+        },
+        {
+          "price": 3, 
+          "item": "Malaria nets, each protecting an average of 1.8 people for 3 years"
+        },
+        {
+          "price": 60,
+          "item": "Lives saved, according to the Against Malaria Foundation and Dr. Christen Lengeler of the Swiss Tropical Institute"
+        },
+        {
+          "price": 3400, 
+          "item": "Lives saved, according to a conservative estimate by GiveWell"
+        }]
+    },
+    {
+      "id": 1, 
+      "name": "Dispensers for Safe Water", 
+      "overhead": 0.0,
+      "pricePoints": [
+        {
+          "price": 1,
+          "item": "Dollars toward providing chlorine-dispensers for safe drinking water"
+        },
+        {
+          "price": 0.5, 
+          "item": "Community members provided with safe water for an entire year"
+        }]
+    },
+    {
+      "id": 2, 
+      "name": "Deworm the World", 
+      "overhead": 0.0,
+      "pricePoints": [
+        {
+          "price": 1, 
+          "item": "Dollars toward protecting students against neglected tropical diseases"
+        },
+        {
+          "price": 0.5, 
+          "name": "Students protected from neglected tropical diseases for one year, reducing absenteeism by 25%, and increasing future wages by 23% and work hours by 12%"
+        }]
+    },
+    {
+      "id": 3, 
+      "name": "Fistula Foundation", 
+      "overhead": 0.153,
+      "pricePoints": [
+        {
+          "price": 1, 
+          "item": "Dollars toward funding the associated costs of fistula repair surgery for women"
+        },
+        {
+          "price": 25, 
+          "item": "Women's transportation to and from the hospital (on average)"
+        },
+        {
+          "price": 50,
+          "item": "Anesthetists provided for women's surgeries (on average)"
+        },
+        {
+          "price": 85, 
+          "item": "Patients provided with nursing care (on average)"
+        },
+        {
+          "price": 450,
+          "item": "Women's fistula repair surgeries funded in entirety (on average)"
+        }]
+    },
+    {
+      "id": 4, 
+      "name": "Fred Hollows Foundation",
+      "overhead": 0.245,
+      "pricePoints": [
+        {
+          "price": 1, 
+          "item": "Dollars toward eliminating global preventable blindness and vision impairment"
+        },
+        {
+          "price": 25,
+          "name": "Cataract surgeries (in some developing countries) preventing avoidable blindness"
+        }]
+    },
+    {
+      "id": 5, 
+      "name": "Give Directly",
+      "overhead": 0.1,
+      "pricePoints": [
+        {
+          "price":1,
+          "item": "Dollars given directly to poor households in Kenya and Uganda to use as they wish, increasing recipients' assets and food security while reducing stress and depression during the following years"
+        },
+        {
+          "price": 200, 
+          "item": "Household members funded for one to two years"
+        },
+        {
+          "price": 1000,
+          "item": "Households funded for one to two years"
+        }]
+    },
+    {
+      "id": 6, 
+      "name": "Oxfam",
+      "overhead": 0.212,
+      "pricePoints": [
+        {
+          "price": 1,
+          "item": "Dollars toward creating lasting solutions to the injustice of poverty where needed most in the 90+ countries where Oxfam works"
+        },
+        {
+          "price": 35, 
+          "item": "Children provided with school meal programs for one year"
+        },
+        {
+          "price": 50, 
+          "item": "Farming households provided with seeds and tools"
+        },
+        {
+          "price": 100, 
+          "item": "Latrines built to protect the health of families displaced by natural disasters"
+        },
+        {
+          "price": 180,
+          "item": "Hand washing stations built at rural schools to prevent the spread of disease"
+        },
+        {
+          "price": 400, 
+          "item": "Communities provided with legal support to take on a mining company"
+        },
+        {
+          "price": 1500, 
+          "item": "Schools built to provide girls with the opportunity to get an education"
+        }]
+    },
+    {
+      "id": 7, 
+      "name": "Population Services International", 
+      "overhead": 0.0656,
+      "pricePoints": [
+        {
+          "price": 1, 
+          "item": "Dollars toward helping people in the developing world to lead healthier lives and plan the families they desire"
+        },
+        {
+          "price": 0.13, 
+          "item": "Male condoms delivered, helping to reduce the spread of HIV and improve family planning"
+        },
+        {
+          "price": 0.53, 
+          "item": "Oral contraceptives delivered, improving the ability of women to plan for the families they desire, improving their health and the health of their children"
+        },
+        {
+          "price": 1.34, 
+          "item": "Children provided with malaria treatment (ACT)"
+        },
+        {
+          "price": 6.98, 
+          "item": "Long-lasting insecticide treated nets delivered to help reduce the spread of malaria" 
+        },
+        {
+          "price": 32.06,
+          "item": "Years of healthy life (DALYs) added"
+        }]
+    },
+    {
+      "id": 8, 
+      "name": "Possible", 
+      "overhead": 0.104,
+      "pricePoints": [
+        {
+          "price": 1, 
+          "item": "Dollars toward providing high-quality, low-cost healthcare to the World's poor"
+        },
+        {
+          "price": 25, 
+          "item": "Patients provided with high-quality health care in rural Nepal"
+        }]
+    },
+    {
+      "id": 9, 
+      "name": "Project Healthy Children", 
+      "overhead": 0.305,
+      "pricePoints": [
+        {
+          "price": 1, 
+          "item": "Dollars toward designing and implementing country-wide, market-based food fortification programs"
+        },
+        {
+          "price": 0.26, 
+          "item": "People provided with fortified food for one year"
+        }]
+    },
+    {
+      "id": 10, 
+      "name": "Schistosomiasis Control Initiative", 
+      "overhead": 0.14,
+      "pricePoints": [
+        {
+          "price": 1, 
+          "item": "Dollars toward helping those who are at risk and suffering from neglected tropical diseases in sub-Saharan Africa"
+        },
+        {
+          "price": 0.8, 
+          "item": "Children and at-risk adults treated against debilitating neglected tropical diseases for one year"
+        },
+        {
+          "price": 800, 
+          "item": "Entire schools treated against neglected tropical diseases for one year"
+        }]
+    },
+    {
+      "id": 11, 
+      "name": "Seva Foundation", 
+      "overhead": 0.144,
+      "pricePoints": [
+        {
+          "price": 1, 
+          "item": "Dollars toward preventing blindness, providing eyesight-restoring surgeries, and developing sustainable eye care programs in the world's most impoverished communities"
+        },
+        {
+          "price": 15, 
+          "item": "People in need provided with eyeglasses"
+        },
+        {
+          "price": 50, 
+          "item": "Blind individuals' eyesight restored"
+        },
+        {
+          "price": 100, 
+          "item": "Children provided with specialized sight-restoring pediatric surgery and follow-up care"
+        },
+        {
+          "price": 1500, 
+          "item": "Days of eye camp and outreach services funded, each day restoring sight to 30 people"
+        },
+        {
+          "price": 150000, 
+          "item": "Rural eye hospitals built, equipped, and brought into operation with a surgical theater and full-time opthalmologist"
+        }]
+    },
+    {
+      "id": 12, 
+      "name": "Proven Impact Fund", 
+      "overhead": 0.0,
+      "pricePoints": [
+        {
+          "price": 1, 
+          "item": "Dollars toward implementing and scaling up programs which have been demonstrated to be impactful and cost-effective"
+        }]
+    }]
+}
