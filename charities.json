@@ -25,29 +25,29 @@
     {
       "id": 1, 
       "name": "Dispensers for Safe Water", 
-      "overhead": 0.0,
+      "overhead": 0.15,
       "pricePoints": [
         {
           "price": 1,
           "item": "Dollars toward providing chlorine-dispensers for safe drinking water"
         },
         {
-          "price": 0.5, 
+          "price": 0.77, 
           "item": "Community members provided with safe water for an entire year"
         }]
     },
     {
       "id": 2, 
       "name": "Deworm the World", 
-      "overhead": 0.0,
+      "overhead": 0.15,
       "pricePoints": [
         {
           "price": 1, 
           "item": "Dollars toward protecting students against neglected tropical diseases"
         },
         {
-          "price": 0.5, 
-          "name": "Students protected from neglected tropical diseases for one year, reducing absenteeism by 25%, and increasing future wages by 23% and work hours by 12%"
+          "price": 0.05, 
+          "item": "Students protected from neglected tropical diseases for one year, reducing absenteeism by 25%, and increasing future wages by 23% and work hours by 12%"
         }]
     },
     {
@@ -87,7 +87,7 @@
         },
         {
           "price": 25,
-          "name": "Cataract surgeries (in some developing countries) preventing avoidable blindness"
+          "item": "Cataract surgeries (in some developing countries) preventing avoidable blindness"
         }]
     },
     {
@@ -152,6 +152,11 @@
           "item": "Dollars toward helping people in the developing world to lead healthier lives and plan the families they desire"
         },
         {
+          "price": 17.77,
+          "item": "Years of healthy life (DALYs) added through PSI's operations"
+        }],
+      "oldPricePoints": [
+        {
           "price": 0.13, 
           "item": "Male condoms delivered, helping to reduce the spread of HIV and improve family planning"
         },
@@ -166,10 +171,6 @@
         {
           "price": 6.98, 
           "item": "Long-lasting insecticide treated nets delivered to help reduce the spread of malaria" 
-        },
-        {
-          "price": 32.06,
-          "item": "Years of healthy life (DALYs) added"
         }]
     },
     {
