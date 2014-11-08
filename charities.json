@@ -1,262 +1,238 @@
 {
   "charities": [
     {
-      "id": 0, 
-      "name": "Against Malaria Foundation", 
-      "overhead": 0.0,
-      "pricePoints" : [
+      "id": 0,
+      "name": "Against Malaria Foundation",
+      "overhead": 0,
+      "pricePoints": [
         {
-          "price": 1, 
-          "item": "Dollars toward providing long-lasting insecticide-treated bed nets to help prevent the spread of malaria"
+          "price": 3,
+          "action": "Provide",
+          "item": "malaria nets to those living in areas with a high incidence of malaria"
         },
         {
-          "price": 3, 
-          "item": "Malaria nets, each protecting an average of 1.8 people for 3 years"
+          "price": 1.67,
+          "action": "Protect and average of",
+          "item": "people from malaria for 3-4 years"
         },
         {
           "price": 60,
-          "item": "Lives saved, according to the Against Malaria Foundation and Dr. Christen Lengeler of the Swiss Tropical Institute"
+          "action": "Save",
+          "item": "lives according to the Against Malaria Foundation and Dr. Christen Lengeler of the Swiss Tropical Institute"
         },
         {
-          "price": 3400, 
-          "item": "Lives saved, according to a conservative estimate by GiveWell"
-        }]
+          "price": 3400,
+          "action": "Save",
+          "item": "lives according to a more conservative estimate by GiveWell"
+        }
+      ]
     },
     {
-      "id": 1, 
-      "name": "Dispensers for Safe Water", 
-      "overhead": 0.15,
+      "id": 1,
+      "name": "Evidence Action",
+      "overhead": 0,
       "pricePoints": [
         {
-          "price": 1,
-          "item": "Dollars toward providing chlorine-dispensers for safe drinking water"
+          "price": 0.90,
+          "action": "Provide",
+          "item": "community members with safe water for an entire year"
         },
         {
-          "price": 0.77, 
-          "item": "Community members provided with safe water for an entire year"
-        }]
+          "price": 0.06,
+          "action": "Protect",
+          "item": "students from neglected tropical diseases, reducing absenteeism by 25%, increasing future wages by 23% and increasing adult work hours by 12%.  Higher scores on tests of literacy and numeracy have been found in deworming treatment areas 7 to 8 years after treatment"
+        }
+      ]
     },
     {
-      "id": 2, 
-      "name": "Deworm the World", 
-      "overhead": 0.15,
-      "pricePoints": [
-        {
-          "price": 1, 
-          "item": "Dollars toward protecting students against neglected tropical diseases"
-        },
-        {
-          "price": 0.05, 
-          "item": "Students protected from neglected tropical diseases for one year, reducing absenteeism by 25%, and increasing future wages by 23% and work hours by 12%"
-        }]
-    },
-    {
-      "id": 3, 
-      "name": "Fistula Foundation", 
+      "id": 2,
+      "name": "Fistula Foundation",
       "overhead": 0.153,
       "pricePoints": [
         {
-          "price": 1, 
-          "item": "Dollars toward funding the associated costs of fistula repair surgery for women"
-        },
-        {
-          "price": 25, 
-          "item": "Women's transportation to and from the hospital (on average)"
+          "price": 25,
+          "action": "Help transport",
+          "item": "women to and from the hospital, (on average, varying by country)"
         },
         {
           "price": 50,
-          "item": "Anesthetists provided for women's surgeries (on average)"
+          "action": "Help provide",
+          "item": "anesthetists for women’s surgeries (on average, varying by country)"
         },
         {
-          "price": 85, 
-          "item": "Patients provided with nursing care (on average)"
+          "price": 85,
+          "action": "Help provide",
+          "item": "patients with nursing care (on average, varying by country)"
         },
         {
           "price": 450,
-          "item": "Women's fistula repair surgeries funded in entirety (on average)"
-        }]
+          "action": "Help complete",
+          "item": "women’s fistula repair surgeries, funded in entirety (on average, varying by country)!"
+        }
+      ]
     },
     {
-      "id": 4, 
+      "id": 3,
       "name": "Fred Hollows Foundation",
       "overhead": 0.245,
       "pricePoints": [
         {
-          "price": 1, 
-          "item": "Dollars toward eliminating global preventable blindness and vision impairment"
-        },
-        {
           "price": 25,
-          "item": "Cataract surgeries (in some developing countries) preventing avoidable blindness"
-        }]
+          "action": "Perform",
+          "item": "cataract surgeries in some developing countries, preventing avoidable blindness"
+        }
+      ]
     },
     {
-      "id": 5, 
+      "id": 4,
       "name": "Give Directly",
       "overhead": 0.1,
       "pricePoints": [
         {
-          "price":1,
-          "item": "Dollars given directly to poor households in Kenya and Uganda to use as they wish, increasing recipients' assets and food security while reducing stress and depression during the following years"
-        },
-        {
-          "price": 200, 
-          "item": "Household members funded for one to two years"
+          "price": 1,
+          "action": "Provide",
+          "item": "dollars directly to poor households in Kenya and Uganda to use as they wish, increasing recipients' assets and food security while reducing stress and depression during the following years"
         },
         {
           "price": 1000,
-          "item": "Households funded for one to two years"
-        }]
+          "action": "Fund",
+          "item": "households over one to two years"
+        },
+        {
+          "price": 200,
+          "action": "Cover an average of",
+          "item": "family members one to two years"
+        }
+      ]
     },
     {
-      "id": 6, 
+      "id": 5,
       "name": "Oxfam",
-      "overhead": 0.212,
+      "overhead": 0,
       "pricePoints": [
         {
-          "price": 1,
-          "item": "Dollars toward creating lasting solutions to the injustice of poverty where needed most in the 90+ countries where Oxfam works"
+          "price": 35,
+          "action": "Provide",
+          "item": "children with school meal programs for one year"
         },
         {
-          "price": 35, 
-          "item": "Children provided with school meal programs for one year"
+          "price": 50,
+          "action": "Provide",
+          "item": "farming households with seeds and tools"
         },
         {
-          "price": 50, 
-          "item": "Farming households provided with seeds and tools"
-        },
-        {
-          "price": 100, 
-          "item": "Latrines built to protect the health of families displaced by natural disasters"
+          "price": 100,
+          "action": "Build",
+          "item": "latrines to protect the health of families displaced by natural disasters"
         },
         {
           "price": 180,
-          "item": "Hand washing stations built at rural schools to prevent the spread of disease"
+          "action": "Build",
+          "item": "hand washing stations at rural schools to prevent the spread of disease"
         },
         {
-          "price": 400, 
-          "item": "Communities provided with legal support to take on a mining company"
+          "price": 400,
+          "action": "Provide",
+          "item": "communities with legal support for a month to help community leaders take on a mining company"
         },
         {
-          "price": 1500, 
-          "item": "Schools built to provide girls with the opportunity to get an education"
-        }]
+          "price": 1500,
+          "action": "Build",
+          "item": "girls' schools"
+        }
+      ]
     },
     {
-      "id": 7, 
-      "name": "Population Services International", 
-      "overhead": 0.0656,
+      "id": 6,
+      "name": "Population Services International",
+      "overhead": 0,
       "pricePoints": [
-        {
-          "price": 1, 
-          "item": "Dollars toward helping people in the developing world to lead healthier lives and plan the families they desire"
-        },
         {
           "price": 17.77,
-          "item": "Years of healthy life (DALYs) added through PSI's operations"
-        }],
-      "oldPricePoints": [
-        {
-          "price": 0.13, 
-          "item": "Male condoms delivered, helping to reduce the spread of HIV and improve family planning"
-        },
-        {
-          "price": 0.53, 
-          "item": "Oral contraceptives delivered, improving the ability of women to plan for the families they desire, improving their health and the health of their children"
-        },
-        {
-          "price": 1.34, 
-          "item": "Children provided with malaria treatment (ACT)"
-        },
-        {
-          "price": 6.98, 
-          "item": "Long-lasting insecticide treated nets delivered to help reduce the spread of malaria" 
-        }]
+          "action": "Provide",
+          "item": "years of healthy life, on average, through disease-prevention, maternal health, family planning and other health services provided to those in poverty around the world"
+        }
+      ]
     },
     {
-      "id": 8, 
-      "name": "Possible", 
-      "overhead": 0.104,
+      "id": 7,
+      "name": "Possible",
+      "overhead": 0,
       "pricePoints": [
         {
-          "price": 1, 
-          "item": "Dollars toward providing high-quality, low-cost healthcare to the World's poor"
-        },
-        {
-          "price": 25, 
-          "item": "Patients provided with high-quality health care in rural Nepal"
-        }]
+          "price": 25,
+          "action": "Cover the cost of",
+          "item": "patients to receive high-quality healthcare in rural Nepal"
+        }
+      ]
     },
     {
-      "id": 9, 
-      "name": "Project Healthy Children", 
-      "overhead": 0.305,
+      "id": 8,
+      "name": "Project Healthy Children",
+      "overhead": 0,
       "pricePoints": [
         {
-          "price": 1, 
-          "item": "Dollars toward designing and implementing country-wide, market-based food fortification programs"
-        },
-        {
-          "price": 0.26, 
-          "item": "People provided with fortified food for one year"
-        }]
+          "price": 0.26,
+          "action": "Provide",
+          "item": "people with fortification of food for one year"
+        }
+      ]
     },
     {
-      "id": 10, 
-      "name": "Schistosomiasis Control Initiative", 
-      "overhead": 0.14,
+      "id": 9,
+      "name": "Schistosomiasis Control Initiative",
+      "overhead": 0,
       "pricePoints": [
         {
-          "price": 1, 
-          "item": "Dollars toward helping those who are at risk and suffering from neglected tropical diseases in sub-Saharan Africa"
-        },
-        {
-          "price": 0.8, 
-          "item": "Children and at-risk adults treated against debilitating neglected tropical diseases for one year"
-        },
-        {
-          "price": 800, 
-          "item": "Entire schools treated against neglected tropical diseases for one year"
-        }]
+          "price": 0.8,
+          "action": "Treat",
+          "item": "children for one year against debilitating Neglected Tropical Diseases"
+        }
+      ]
     },
     {
-      "id": 11, 
-      "name": "Seva Foundation", 
-      "overhead": 0.144,
+      "id": 10,
+      "name": "Seva Foundation",
+      "overhead": 0,
       "pricePoints": [
         {
-          "price": 1, 
-          "item": "Dollars toward preventing blindness, providing eyesight-restoring surgeries, and developing sustainable eye care programs in the world's most impoverished communities"
+          "price": 15,
+          "action": "Provide",
+          "item": "people in need with eyeglasses"
         },
         {
-          "price": 15, 
-          "item": "People in need provided with eyeglasses"
+          "price": 50,
+          "action": "Restore eyesight to",
+          "item": "people who are blind and cannot afford surgery"
         },
         {
-          "price": 50, 
-          "item": "Blind individuals' eyesight restored"
+          "price": 100,
+          "action": "Provide",
+          "item": "children with specialized sight-restoring pediatric surgery and follow-up care"
         },
         {
-          "price": 100, 
-          "item": "Children provided with specialized sight-restoring pediatric surgery and follow-up care"
+          "price": 1500,
+          "action": "Provide",
+          "item": "days of eye camp and outreach services to those in need, each day restoring sight to 30 people"
         },
         {
-          "price": 1500, 
-          "item": "Days of eye camp and outreach services funded, each day restoring sight to 30 people"
-        },
-        {
-          "price": 150000, 
-          "item": "Rural eye hospitals built, equipped, and brought into operation with a surgical theater and full-time opthalmologist"
-        }]
+          "price": 150000,
+          "action": "Build and equip",
+          "item": "rural eye hospitals with surgical theaters and full-time opthalmologists"
+        }
+      ]
     },
     {
-      "id": 12, 
-      "name": "Proven Impact Fund", 
-      "overhead": 0.0,
+      "id": 11,
+      "name": "Proven Impact Fund",
+      "overhead": 0,
       "pricePoints": [
         {
-          "price": 1, 
-          "item": "Dollars toward implementing and scaling up programs which have been demonstrated to be impactful and cost-effective"
-        }]
-    }]
+          "price": 1,
+          "action": "Channel",
+          "item": "dollars toward implementing and scaling up programs which have been demonstrated to be impactful and cost-effective"
+        }
+      ]
+    }
+  ]
 }
