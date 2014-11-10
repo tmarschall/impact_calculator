@@ -7,7 +7,7 @@
 
 
 // structure of price point objects (see charities.json)
-function pricePoint(price, action, item)
+function pricePoint(price, action, item, exclusive)
 {
 	this.price = price;
 	this.action = action;
@@ -24,11 +24,12 @@ function charity(id, name, overhead, pricePoints)
 	
 }
 
-function impact(number, action, item)
+function impact(number, action, item, exclusive)
 {
 	this.number = number;
 	this.action = action;
 	this.item = item;
+	this.exclusive = exclusive;
 }
 
 // Load charity info from charities.json
@@ -55,7 +56,7 @@ function calculateImpact(charityId, donation) {
 		var overheadMultiplier = 1.0 - selectedCharity.overhead;
 		var usableDonation = overheadMultiplier*donation;
 		if (usableDonation >= pp.price) {
-			impacts.push(new impact(Math.floor(usableDonation/pp.price), pp.action, pp.item));
+			impacts.push(new impact(Math.floor(usableDonation/pp.price), pp.action, pp.item, pp.exclusive));
 		}
 	}
 	return impacts;
@@ -76,6 +77,14 @@ function displayImpact() {
 
     impacts = calculateImpact(charityId, donation);
     for (i = 0; i < impacts.length; i++) {
+    	if (i > 0) {
+    		if (impacts[i].exclusive) {
+    			text += "OR<br/>"
+    		}
+    		else {
+    			text += "<br/>"
+    		}
+    	}
         text += impacts[i].action;
         text += " "
         text += impacts[i].number.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,");

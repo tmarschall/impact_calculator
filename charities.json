@@ -8,22 +8,26 @@
         {
           "price": 3,
           "action": "Provide",
-          "item": "malaria nets to those living in areas with a high incidence of malaria"
+          "item": "long-lasting, insecticide-treated bednets to those living in  malaria-stricken areas",
+          "exclusive": false
         },
         {
           "price": 1.67,
           "action": "Protect and average of",
-          "item": "people from malaria for 3-4 years"
+          "item": "people from malaria for 3-4 years",
+          "exclusive": false
         },
         {
           "price": 60,
           "action": "Save",
-          "item": "lives according to the Against Malaria Foundation and Dr. Christen Lengeler of the Swiss Tropical Institute"
+          "item": "lives according to the Against Malaria Foundation and Dr. Christen Lengeler of the Swiss Tropical Institute",
+          "exclusive": false
         },
         {
           "price": 3400,
           "action": "Save",
-          "item": "lives according to a more conservative estimate by GiveWell"
+          "item": "lives according to the more conservative estimate provided by GiveWell",
+          "exclusive": false
         }
       ]
     },
@@ -33,14 +37,16 @@
       "overhead": 0,
       "pricePoints": [
         {
-          "price": 0.90,
-          "action": "Provide",
-          "item": "community members with safe water for an entire year"
-        },
-        {
           "price": 0.06,
           "action": "Protect",
-          "item": "students from neglected tropical diseases, reducing absenteeism by 25%, increasing future wages by 23% and increasing adult work hours by 12%.  Higher scores on tests of literacy and numeracy have been found in deworming treatment areas 7 to 8 years after treatment"
+          "item": "students from neglected tropical diseases, reducing absenteeism by 25%, increasing future wages by 23% and increasing adult work hours by 12%.  Higher scores on tests of literacy and numeracy have been found in deworming treatment areas 7 to 8 years after treatment",
+          "exclusive": true
+        },
+        {
+          "price": 0.90,
+          "action": "Provide",
+          "item": "community members with safe water for an entire year",
+          "exclusive": true
         }
       ]
     },
@@ -52,22 +58,26 @@
         {
           "price": 25,
           "action": "Help transport",
-          "item": "women to and from the hospital, (on average, varying by country)"
+          "item": "women to and from the hospital (on average, varying by country)",
+          "exclusive": true
         },
         {
           "price": 50,
           "action": "Help provide",
-          "item": "anesthetists for women’s surgeries (on average, varying by country)"
+          "item": "anesthetists for women’s surgeries (on average, varying by country)",
+          "exclusive": true
         },
         {
           "price": 85,
           "action": "Help provide",
-          "item": "patients with nursing care (on average, varying by country)"
+          "item": "patients with nursing care (on average, varying by country)",
+          "exclusive": true
         },
         {
           "price": 450,
           "action": "Help complete",
-          "item": "women’s fistula repair surgeries, funded in entirety (on average, varying by country)!"
+          "item": "women’s fistula repair surgeries, funded in entirety (on average, varying by country)",
+          "exclusive": true
         }
       ]
     },
@@ -79,7 +89,8 @@
         {
           "price": 25,
           "action": "Perform",
-          "item": "cataract surgeries in some developing countries, preventing avoidable blindness"
+          "item": "cataract surgeries in some developing countries, preventing avoidable blindness",
+          "exclusive": false
         }
       ]
     },
@@ -91,17 +102,14 @@
         {
           "price": 1,
           "action": "Provide",
-          "item": "dollars directly to poor households in Kenya and Uganda to use as they wish, increasing recipients' assets and food security while reducing stress and depression during the following years"
+          "item": "dollars directly to poor households in Kenya and Uganda to use as they wish, increasing recipients' assets and food security while reducing stress and depression during the following years",
+          "exclusive": false
         },
         {
           "price": 1000,
           "action": "Fund",
-          "item": "households over one to two years"
-        },
-        {
-          "price": 200,
-          "action": "Cover an average of",
-          "item": "family members one to two years"
+          "item": "households over one to two years, covering an average of five family members per household",
+          "exclusive": false
         }
       ]
     },
@@ -113,32 +121,38 @@
         {
           "price": 35,
           "action": "Provide",
-          "item": "children with school meal programs for one year"
+          "item": "children with school meal programs for one year",
+          "exclusive": true
         },
         {
           "price": 50,
           "action": "Provide",
-          "item": "farming households with seeds and tools"
+          "item": "farming households with seeds and tools",
+          "exclusive": true
         },
         {
           "price": 100,
           "action": "Build",
-          "item": "latrines to protect the health of families displaced by natural disasters"
+          "item": "latrines to protect the health of families displaced by natural disasters",
+          "exclusive": true
         },
         {
           "price": 180,
           "action": "Build",
-          "item": "hand washing stations at rural schools to prevent the spread of disease"
+          "item": "hand washing stations at rural schools to prevent the spread of disease",
+          "exclusive": true
         },
         {
           "price": 400,
           "action": "Provide",
-          "item": "communities with legal support for a month to help community leaders take on a mining company"
+          "item": "months of legal support to help community leaders take on a mining company",
+          "exclusive": true
         },
         {
           "price": 1500,
           "action": "Build",
-          "item": "girls' schools"
+          "item": "girls' schools",
+          "exclusive": true
         }
       ]
     },
@@ -150,7 +164,8 @@
         {
           "price": 17.77,
           "action": "Provide",
-          "item": "years of healthy life, on average, through disease-prevention, maternal health, family planning and other health services provided to those in poverty around the world"
+          "item": "years of healthy life, on average, through disease-prevention, maternal health, family planning and other health services provided to those in poverty around the world",
+          "exclusive": false
         }
       ]
     },
@@ -162,7 +177,8 @@
         {
           "price": 25,
           "action": "Cover the cost of",
-          "item": "patients to receive high-quality healthcare in rural Nepal"
+          "item": "patients to receive high-quality healthcare in rural Nepal",
+          "exclusive": false
         }
       ]
     },
@@ -174,7 +190,8 @@
         {
           "price": 0.26,
           "action": "Provide",
-          "item": "people with fortification of food for one year"
+          "item": "people with food-based micronutrient fortification for one year",
+          "exclusive": false
         }
       ]
     },
@@ -186,7 +203,8 @@
         {
           "price": 0.8,
           "action": "Treat",
-          "item": "children for one year against debilitating Neglected Tropical Diseases"
+          "item": "children for one year against debilitating Neglected Tropical Diseases",
+          "exclusive": false
         }
       ]
     },
@@ -198,39 +216,45 @@
         {
           "price": 15,
           "action": "Provide",
-          "item": "people in need with eyeglasses"
+          "item": "people in need with eyeglasses",
+          "exclusive": true
         },
         {
           "price": 50,
           "action": "Restore eyesight to",
-          "item": "people who are blind and cannot afford surgery"
+          "item": "people who are blind and cannot afford surgery",
+          "exclusive": true
         },
         {
           "price": 100,
           "action": "Provide",
-          "item": "children with specialized sight-restoring pediatric surgery and follow-up care"
+          "item": "children with specialized sight-restoring pediatric surgery and follow-up care",
+          "exclusive": true
         },
         {
           "price": 1500,
           "action": "Provide",
-          "item": "days of eye camp and outreach services to those in need, each day restoring sight to 30 people"
+          "item": "days of eye camp and outreach services to those in need, each day restoring sight to 30 people",
+          "exclusive": true
         },
         {
           "price": 150000,
           "action": "Build and equip",
-          "item": "rural eye hospitals with surgical theaters and full-time opthalmologists"
+          "item": "rural eye hospitals with surgical theaters and full-time opthalmologists",
+          "exclusive": true
         }
       ]
     },
     {
       "id": 11,
-      "name": "Proven Impact Fund",
+      "name": "Innovations for Poverty Action",
       "overhead": 0,
       "pricePoints": [
         {
           "price": 1,
           "action": "Channel",
-          "item": "dollars toward implementing and scaling up programs which have been demonstrated to be impactful and cost-effective"
+          "item": "dollars toward implementing and scaling up programs which have been demonstrated to be impactful and cost-effective",
+          "exclusive": false
         }
       ]
     }
