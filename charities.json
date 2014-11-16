@@ -13,7 +13,7 @@
         },
         {
           "price": 1.67,
-          "action": "Protect and average of",
+          "action": "Protect an average of",
           "item": "people from malaria for 3-4 years",
           "exclusive": false
         },
@@ -107,7 +107,7 @@
         },
         {
           "price": 1000,
-          "action": "Fund",
+          "action": "Fully fund",
           "item": "households over one to two years, covering an average of five family members per household",
           "exclusive": false
         }

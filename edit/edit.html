@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://knockoutjs.com/downloads/knockout-3.2.0.js"></script>
+<script src="edit_charities.js"></script>
+
+<style>
+table, th, td {
+    border: 1px solid black;
+}
+input, p, textarea {
+    vertical-align: top;
+    font-size: 90%;
+}
+button {
+    margin: 5px;
+    font-size: 100%;
+    font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<div class='editor'>
+     <h2>Charities:</h2>
+
+    <div id='charitiesList'>
+        <table class='charitiesEditor'>
+            <tr>
+                <th>&nbsp;Id&nbsp;</th>
+                <th>Name</th>
+                <th>Overhead</th>
+                <th>Price Points</th>
+            </tr>
+            <tbody data-bind="foreach: charities">
+                <tr>
+                    <td>
+                        <p data-bind='text: id' style="font-size: 100%"></p>
+                    </td>
+                    <td>
+                        <input data-bind='value: name' />
+                        <div>
+                            <button data-bind='click: $root.removeCharity'>Delete</button>
+                        </div>
+                    </td>
+                    <td>
+                        <input data-bind='value: overhead' />
+                        <div>
+                            <p data-bind='text: ovhdText'></p>
+                        </div>
+                    </td>
+                    <td>
+                        <table>
+                            <tbody data-bind="foreach: pricePoints">
+                                <tr>
+                                    <td>
+                                        <span>$</span><input data-bind='value: price' />
+                                    </td>
+                                    <td>
+                                        <input data-bind='value: action' />
+                                    </td>
+                                    <td>
+                                        <textarea rows='3' cols='50' data-bind='value: item'></textarea>
+                                    </td>
+                                    <td>
+                                        <input type='checkbox' data-bind='checked: exclusive'></input>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Sample text:</td>
+                                    <td colspan='2'>
+                                        <p data-bind='text: sampleText'></p>
+                                    </td>
+                                    <td>
+                                        <button data-bind='click: $root.removePricePoint'>Delete</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <button data-bind='click: $root.addPricePoint'>Add price point</button>
+                    </td>
+                </tr>
+            </tbody>
+            <tr>
+                <td colspan='4'>
+                    <button data-bind='click: $root.addCharity'>Add charity</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <h3>JSON:</h3>
+    <textarea data-bind="value: ko.toJSON($root, null, 2)" rows='20' cols='100' disabled='disabled'></textarea>
+    <p>
+        <button data-bind='click: save, enable: charities().length > 0'>Save to JSON</button>
+    </p>
+</div>
+
+</body>
