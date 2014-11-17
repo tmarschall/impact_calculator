@@ -12,6 +12,9 @@ input, p, textarea {
     vertical-align: top;
     font-size: 90%;
 }
+p {
+	margin: 5px;
+}
 button {
     margin: 5px;
     font-size: 100%;
@@ -55,20 +58,24 @@ button {
                             <tbody data-bind="foreach: pricePoints">
                                 <tr>
                                     <td>
-                                        <span>$</span><input data-bind='value: price' />
+                                    	<p>Price:</p>
+                                        <div><span style="font-size: %120">$</span><input data-bind='value: price' /></div>
                                     </td>
                                     <td>
+                                    	<p>Action:</p>
                                         <input data-bind='value: action' />
                                     </td>
                                     <td>
+                                    	<span style="margin: 5px; text-size: 100%">Item:</span>
                                         <textarea rows='3' cols='50' data-bind='value: item'></textarea>
                                     </td>
                                     <td>
-                                        <input type='checkbox' data-bind='checked: exclusive'></input>
+                                    	<div>Exclusive?</div>
+                                    	<input type='checkbox' data-bind='checked: exclusive'></input>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Sample text:</td>
+                                    <td><p style="text-align: right">Sample text:</p></td>
                                     <td colspan='2'>
                                         <p data-bind='text: sampleText'></p>
                                     </td>

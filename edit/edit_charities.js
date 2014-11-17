@@ -32,7 +32,7 @@ var CharityModel = function (data) {
     }));
 
     self.ovhdText = ko.computed(function () {
-        return "(" + (100 * self.overhead()).toPrecision(2) + "%)";
+        return "(" + (100.0 * self.overhead()).toFixed(1) + "%)";
     });
     
     self.toJSON = function() {
